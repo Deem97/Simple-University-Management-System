@@ -23,6 +23,8 @@
     this.scrollTop += (delta < 0 ? 1 : -1) * 30;
     e.preventDefault();
   });
+  
+  //added some spaces
   // Scroll to top button appear
   $(document).scroll(function() {
     var scrollDistance = $(this).scrollTop();
